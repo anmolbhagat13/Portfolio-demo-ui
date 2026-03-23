@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg1{
+    background-color: rgb(193, 193, 193);
+    height:90vh;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 0px 0px 100px 100px;
+}
+.nav{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    /* background-color: grey; */
+    padding: 50px 0px 0px 0px;
+    align-items: center;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 0px 0px 40px;
+    gap: 30px;
+}
+.gmail{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    margin: 0px 40px 0px 0px;    
+    gap: 30px;
+}
+
+.left-nav button{
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    outline: none;
+}
+
+.right-nav button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(193, 193, 193);
+}
+.right-nav button:hover{
+    color: red;
+}
+.left-nav button:hover{
+    color: red;
+}
+.mainpg1{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+
+}
+
+.circle{
+    
+    height: 220px;
+    width: 220px;
+    border: 2px solid white;
+    border-radius:50%;
+    margin: 0px 0px 45px 0px;
+}
+
+.circle img{
+    height: 216px;
+    width: 216px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.mainpg1 button{
+    height: 70px;
+    width: 230px;
+    font-size: 20px;
+    border: 1px solid back;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+}
+
