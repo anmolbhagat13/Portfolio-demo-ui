@@ -7,7 +7,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(200, 193, 193);
 }
 
 .bg1{
@@ -50,8 +50,9 @@ body{
     margin: 3px;
     font-size: 16px;
     font-weight: bold;
-    border: 1px solid white;
+    border: none;
     border-radius: 30px;
+    color: black;
     background-color: white;
     outline: none;
 }
@@ -65,10 +66,11 @@ body{
     background-color: rgb(193, 193, 193);
 }
 .right-nav button:hover{
-    color: red;
+    color: white;
 }
 .left-nav button:hover{
-    color: red;
+    color: white;
+    background-color: black;
 }
 .mainpg1{
     display: flex;
@@ -102,13 +104,14 @@ body{
     font-size: 20px;
     border: 1px solid back;
     border-radius: 50px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     margin: 40px 0px 0px 0px;
 }
 
 .mainpg1 button:hover{
-    color: red;
+    color: white;
+    background-color: black;
 }
 
 .bg2{
@@ -184,42 +187,17 @@ body{
     font-size: 50px;
 }
 .bg4btn{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    height: 50px;
-    gap: 20px;
+
 }
 .bg4 button{
-    font-weight: bold;
     height: 70px;
     width: 230px;
     font-size: 22px;
     border-radius: 100px;
 }
 
-.bg4btn .email{
-    height: 30px;
-}
-
-.bg4btn .whatsapp{
-    height: 25px;
-}
-
-.bg4btn .email-me-btn{
-    gap: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    background-color: grey;
-}
-
-.bg4btn .whatsapp-btn{
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: black;
-    background-color: white;
+.bg4 button:hover{
+    color: white;
+    background-color: black;
 }
