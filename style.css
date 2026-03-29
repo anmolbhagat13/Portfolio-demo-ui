@@ -1,51 +1,57 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(200, 193, 193);
+body {
+    background-color: #f2f1f2;
 }
 
-.bg1{
-    height:800px;
-    border: 1px solid rgb(193, 193, 193);
+.bg2 {
+    height: 1050px;
+    width: 100%;
     border-radius: 0px 0px 100px 100px;
-    background-color: rgb(193, 193, 193);
-}
-.nav{
-    display: flex;
-    height: 7vh;
-    justify-content: space-between;
-    padding: 50px 0px 0px 0px;
-    align-items: center;
+    background-color: white;
 }
 
-.left-nav{
+.bg1 {
+    height: 80%;
+    width: 100%;
+    border-radius: 0px 0px 100px 100px;
+    background-color: #f2f1f2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.left-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0px 0px 0px 40px;
+    margin-left: 40px;
     gap: 30px;
 }
-.gmail{
+
+.gmail {
     color: black;
-    font-size: large;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: 600;
 }
-.right-nav{
+
+.right-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between  ;
-    margin: 0px 40px 0px 0px;    
+    justify-content: space-between;
+    margin-right: 40px;
     gap: 30px;
 }
 
-.left-nav button{
-    width: 100px;
+.left-nav button {
+    width: 5rem;
     height: 50px;
     margin: 3px;
     font-size: 16px;
@@ -54,51 +60,52 @@ body{
     border-radius: 30px;
     color: black;
     background-color: white;
-    outline: none;
 }
 
-.right-nav button{
-    width: 100px;
+.right-nav button {
     height: 50px;
+    width: 5rem;
     font-size: 20px;
     font-weight: bold;
     border: none;
-    background-color: rgb(193, 193, 193);
+    background-color: #f2f1f2;
 }
-.right-nav button:hover{
+
+.right-nav button:hover {
     color: white;
 }
-.left-nav button:hover{
+
+.left-nav button:hover {
     color: white;
     background-color: black;
 }
-.mainpg1{
+
+.mainpg1 {
     display: flex;
     flex-direction: column;
-    font-size: 35px;
+    font-size: 2.4em;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 70px;
 }
 
-.circle{
-    
+.circle {
     height: 220px;
     width: 220px;
     border: 2px solid white;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 0px 0px 35px 0px;
 }
 
-.circle img{
+.circle img {
     height: 216px;
     width: 216px;
     border: 2px solid white;
     border-radius: 50%;
 }
 
-.mainpg1 button{
+.mainpg1 button {
     height: 70px;
     width: 230px;
     font-size: 20px;
@@ -106,98 +113,102 @@ body{
     border-radius: 50px;
     color: black;
     background-color: white;
-    margin: 40px 0px 0px 0px;
+    margin-top: 40px;
 }
 
-.mainpg1 button:hover{
+.mainpg1 button:hover {
     color: white;
     background-color: black;
 }
 
-.bg2{
-    height: 1050px;
-    width: 100%;
-    border-radius: 0px 0px 100px 100px;
-    background-color: white;
-}
-
-.logo{
-    margin: 100px;
+.logo {
     height: 40px;
-    align-items: center;
+    width: 100%;
+    margin-top: 80px;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
-.national-bank{
+.national-bank {
     height: 55px;
 }
 
-.cocacola{
+.cocacola {
     height: 40px;
 }
 
-.adobe{
+.adobe {
     display: flex;
     height: 60px;
 }
 
-.subway{
+.subway {
     height: 30px;
 }
 
-.bg3{
+.bg3 {
     height: 480px;
-    background-color: rgb(193, 193, 193);
+    background-color: #f2f1f2;
 }
-.para1{
+
+.para1 {
     margin: 70px;
     text-align: center;
     font-size: 50px;
 }
-.page2{
+
+.page2 {
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly ;
-}
-.page2 .p2heading{
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0px 0px 20px 0px;
+    justify-content: space-evenly;
 }
 
-.bg4{
+.page2 .p2heading {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.bg4 {
     height: 550px;
     border: 1px solid white;
     border-radius: 100px 100px 0px 0px;
     background-color: white;
-    text-align: center; 
+    text-align: center;
 }
 
-.bg4 .handshake{
+.bg4 .handshake {
     height: 160px;
     border: 2px solid grey;
-    border-radius: 100%;
+    border-radius: 50%;
     margin: 50px;
-    background-color: rgb(193, 193, 193);
+    background-color: #f2f1f2;
 }
-.bg4 h1{
-    margin: 0px 0px 50px 0px;
-    font-size: 50px;
+
+.bg4 h1 {
+    margin-bottom: 50px;
+    font-size: 3em;
 }
-.bg4btn{
+
+.bg4btn {
+    display: flex;
+    gap: 20px;
     justify-content: center;
 
 }
-.bg4 button{
+
+.bg4 button {
     height: 70px;
     width: 230px;
     font-size: 22px;
     border-radius: 100px;
 }
 
-.bg4 button:hover{
+
+.bg4 button:hover {
     color: white;
     background-color: black;
 }
