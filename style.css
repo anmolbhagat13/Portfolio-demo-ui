@@ -212,3 +212,139 @@ nav {
     color: white;
     background-color: black;
 }
+
+@media (max-width:600px) {
+    nav{
+        padding-left: 35px;
+    }
+    .left-nav {
+        button {
+            display: none;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+    }
+
+    .right-nav {
+        button {
+            display: none;
+        }
+    }
+
+    .bg1 {
+        height: 76%;
+        border-radius: 0 0 50px 50px;
+
+        .circle {
+            height: 180px;
+            width: 180px;
+
+            img {
+                height: 177px;
+                width: 177px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .mainpg1 {
+        margin: 50px;
+    }
+
+    .mainpg1 button {
+        height: 48px;
+        width: 120px;
+        font-size: 1rem;
+        border-radius: 30px;
+    }
+
+    .bg2 {
+        height: 85vh;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 20px 20px;
+        justify-content: space-evenly;
+    }
+
+    .national-bank {
+        height: 45px;
+    }
+
+    .cocacola {
+        height: 40px;
+    }
+
+    .adobe {
+        display: flex;
+        height: 50px;
+    }
+
+    .subway {
+        height: 30px;
+    }
+
+    .bg3 {
+        border-top: 1px solid #f2f1f2;
+        height: 87vh;
+
+        .para1 {
+            margin-top: 20px;
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        .page2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px;
+            text-align: center;
+            line-height: 20px;
+            gap: 30px;
+        }
+
+        .p2mainhead {
+            line-height: 20px;
+        }
+
+        .p2heading {
+            font-weight: 500;
+            font-size: 1.1em;
+            line-height: 15px;
+        }
+
+        .p2info {
+            font-size: 0.8em;
+            padding-bottom: 20px;
+        }
+    }
+
+    .bg4 {
+        height: 75vh;
+        border-radius: 50px 50px 0 0;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        .bg4btn {
+            flex-direction: column;
+        }
+
+        .bg4btn button {
+            height: 48px;
+            width: 120px;
+            font-size: 16px;
+            border-radius: 100px;
+        }
+    }
+}
