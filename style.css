@@ -7,16 +7,17 @@
 body {
     background-color: #f2f1f2;
 }
-
 .bg2 {
-    height: 1050px;
+    height: auto;
+    min-height: 110vh;
     width: 100%;
     border-radius: 0px 0px 100px 100px;
     background-color: white;
 }
 
 .bg1 {
-    height: 80%;
+    height: auto;
+    min-height: 90vh;
     width: 100%;
     border-radius: 0px 0px 100px 100px;
     background-color: #f2f1f2;
@@ -87,7 +88,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 70px;
+    margin-top: 70px;
 }
 
 .circle {
@@ -149,7 +150,8 @@ nav {
 }
 
 .bg3 {
-    height: 480px;
+    height: auto;
+    min-height: 50vh;
     background-color: #f2f1f2;
 }
 
@@ -173,7 +175,8 @@ nav {
 }
 
 .bg4 {
-    height: 550px;
+    height: auto;
+    min-height: 55vh;
     border: 1px solid white;
     border-radius: 100px 100px 0px 0px;
     background-color: white;
@@ -213,48 +216,49 @@ nav {
     background-color: black;
 }
 
-@media (max-width:600px) {
-    nav{
-        padding-left: 35px;
-    }
-    .left-nav {
-        button {
-            display: none;
-        }
-
-        p {
-            font-size: 1.2em;
-            font-weight: 600;
-        }
-    }
-
-    .right-nav {
-        button {
-            display: none;
-        }
-    }
-
+/* Laptop (1024px) */
+@media only screen and (max-width: 1024px) {
     .bg1 {
-        height: 76%;
+        min-height: 75vh;
+        height: auto;
+        overflow: hidden;
         border-radius: 0 0 50px 50px;
+
+        .left-nav {
+            button {
+                border: 1px solid black;
+            }
+
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+        }
+
+        .right-nav {
+            button {
+                display: none;
+            }
+        }
 
         .circle {
             height: 180px;
             width: 180px;
+            border: 2px solid black;
 
             img {
-                height: 177px;
-                width: 177px;
+                height: 176px;
+                width: 176px;
             }
         }
     }
 
     h1 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .mainpg1 {
-        margin: 50px;
+        margin-top: 50px;
     }
 
     .mainpg1 button {
@@ -265,23 +269,24 @@ nav {
     }
 
     .bg2 {
-        height: 85vh;
+        min-height: 88vh;
+        height: auto;
         border-radius: 0 0 50px 50px;
     }
 
     .logo {
         flex-wrap: wrap;
-        margin-top: 30px;
+        margin-top: 35px;
         gap: 20px 20px;
         justify-content: space-evenly;
     }
 
     .national-bank {
-        height: 45px;
+        height: 40px;
     }
 
     .cocacola {
-        height: 40px;
+        height: 35px;
     }
 
     .adobe {
@@ -290,12 +295,13 @@ nav {
     }
 
     .subway {
-        height: 30px;
+        height: 25px;
     }
 
     .bg3 {
         border-top: 1px solid #f2f1f2;
-        height: 87vh;
+        min-height: 60vh;
+        height: auto;
 
         .para1 {
             margin-top: 20px;
@@ -304,40 +310,34 @@ nav {
         }
 
         .page2 {
-            display: flex;
             flex-wrap: wrap;
-            margin: 15px;
             text-align: center;
-            line-height: 20px;
             gap: 30px;
         }
 
-        .p2mainhead {
-            line-height: 20px;
-        }
-
         .p2heading {
-            font-weight: 500;
-            font-size: 1.1em;
+            font-weight: 700;
+            font-size: 1.2em;
             line-height: 15px;
         }
 
         .p2info {
-            font-size: 0.8em;
+            font-size: 1em;
             padding-bottom: 20px;
         }
     }
 
     .bg4 {
-        height: 75vh;
+        min-height: 55vh;
+        height: auto;
         border-radius: 50px 50px 0 0;
 
         h1 {
-            font-size: 2em;
+            font-size: 2.3em;
         }
 
         .bg4btn {
-            flex-direction: column;
+            flex-wrap: wrap;
         }
 
         .bg4btn button {
