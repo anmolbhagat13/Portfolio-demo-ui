@@ -483,3 +483,132 @@ nav {
         }
     }
 }
+
+/* Mobile L (425px) */
+@media only screen and (max-width: 430px) {
+    .bg1 {
+        min-height: 75vh;
+        height: auto;
+        overflow: hidden;
+        border-radius: 0 0 50px 50px;
+
+        .left-nav {
+            button {
+                display: none;
+            }
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+        }
+        .right-nav {
+            button {
+                display: none;
+            }
+        }
+        .circle {
+            height: 180px;
+            width: 180px;
+
+            img {
+                height: 177px;
+                width: 177px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .mainpg1 {
+        margin: 50px 20px;
+    }
+
+    .mainpg1 button {
+        height: 48px;
+        width: 120px;
+        font-size: 1rem;
+        border-radius: 30px;
+    }
+
+    .bg2 {
+        min-height: 98vh;
+        height: auto;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 20px 30px;
+        justify-content: space-evenly;
+    }
+
+    .national-bank {
+        height: 42px;
+    }
+
+    .cocacola {
+        height: 37px;
+    }
+
+    .adobe {
+        display: flex;
+        height: 50px;
+    }
+
+    .subway {
+        height: 27px;
+    }
+
+    .bg3 {
+        min-height: 100vh;
+        height: auto;
+
+        .page2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px;
+            text-align: center;
+            line-height: 20px;
+            gap: 30px;
+        }
+
+        .p2mainhead {
+            line-height: 20px;
+        }
+
+        .p2heading {
+            font-weight: 600;
+            font-size: 1.1em;
+            line-height: 15px;
+        }
+
+        .p2info {
+            font-size: 0.8em;
+            padding-bottom: 20px;
+        }
+    }
+
+    .bg4 {
+        min-height: 83vh;
+        height: auto;
+        border-radius: 50px 50px 0 0;
+        h1 {
+            font-size: 2em;
+        }
+        .bg4btn {
+            align-items: center;
+            flex-direction: column;
+            
+        }
+
+        .bg4btn button {
+            height: 48px;
+            width: 120px;
+            font-size: 16px;
+            border-radius: 100px;
+        }
+    }
+}
